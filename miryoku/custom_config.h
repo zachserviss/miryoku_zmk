@@ -13,7 +13,7 @@
 // Define custom layer names
 #undef MIRYOKU_LAYER_LIST
 #define MIRYOKU_LAYER_LIST \
-  MIRYOKU_X(BASE,   "Base") \
+  MIRYOKU_X(BASE,   "Alphas") \
   MIRYOKU_X(EXTRA,  "Extra") \
   MIRYOKU_X(TAP,    "Tap") \
   MIRYOKU_X(BUTTON, "Button") \
