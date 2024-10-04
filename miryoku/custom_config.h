@@ -3,12 +3,23 @@
 
 #define MIRYOKU_CLIPBOARD_WIN
 
+// custom_config.h
 
+#pragma once
+
+// Include the default Miryoku configuration
+#include "../miryoku/miryoku.h"
+
+// Define custom layer names
+#undef MIRYOKU_LAYER_LIST
 #define MIRYOKU_LAYER_LIST \
-  MIRYOKU_LAYER(MIRYOKU_LAYER_BASE, "Base") \
-  MIRYOKU_LAYER(MIRYOKU_LAYER_NAV, "Navigation") \
-  MIRYOKU_LAYER(MIRYOKU_LAYER_MOUSE, "Mouse") \
-  MIRYOKU_LAYER(MIRYOKU_LAYER_MEDIA, "Media") \
-  MIRYOKU_LAYER(MIRYOKU_LAYER_NUM, "Numbers") \
-  MIRYOKU_LAYER(MIRYOKU_LAYER_SYM, "Symbols") \
-  MIRYOKU_LAYER(MIRYOKU_LAYER_FUN, "Functions")
+  MIRYOKU_X(BASE,   "Base") \
+  MIRYOKU_X(EXTRA,  "Extra") \
+  MIRYOKU_X(TAP,    "Tap") \
+  MIRYOKU_X(BUTTON, "Button") \
+  MIRYOKU_X(NAV,    "Navigation") \
+  MIRYOKU_X(MOUSE,  "Mouse") \
+  MIRYOKU_X(MEDIA,  "Media") \
+  MIRYOKU_X(NUM,    "Numbers") \
+  MIRYOKU_X(SYM,    "Symbols") \
+  MIRYOKU_X(FUN,    "Functions")
