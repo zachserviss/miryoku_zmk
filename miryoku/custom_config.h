@@ -1,6 +1,9 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#warning "Custom config is being included"
+
+
 #define MIRYOKU_CLIPBOARD_WIN
 
 // custom_config.h
