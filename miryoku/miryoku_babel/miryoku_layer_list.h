@@ -11,7 +11,7 @@ MIRYOKU_X(BASE,   "Chocofi") \
 MIRYOKU_X(EXTRA,  "Extra") \
 MIRYOKU_X(TAP,    "Tap") \
 MIRYOKU_X(BUTTON, "Button") \
-MIRYOKU_X(NAV,    "Navigation") \
+MIRYOKU_X(NAV,    "Navigate") \
 MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Numbers") \
