@@ -7,7 +7,7 @@
 #if !defined (MIRYOKU_LAYER_LIST)
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Chocofi") \
+MIRYOKU_X(BASE,   "Colemak-DH") \
 MIRYOKU_X(EXTRA,  "Extra") \
 MIRYOKU_X(TAP,    "Tap") \
 MIRYOKU_X(BUTTON, "Button") \
