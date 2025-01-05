@@ -2,6 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Build Cygnus'
+on:
   push:
     branches:
       - main
