@@ -2,7 +2,10 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Build Cygnus'
-on: workflow_dispatch
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 jobs:
   build:
     uses: ./.github/workflows/main.yml
