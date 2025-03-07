@@ -5,6 +5,12 @@
 
 #pragma once
 
+#define MIRYOKU_ALTERNATIVES_BASE_APTV3                                                                                                    \
+  &kp W, &kp G, &kp D, &kp F, &kp B, &kp Q, &kp L, &kp U, &kp O, &kp Y,                                                                       \
+      U_MT(LGUI, R), U_MT(LALT, S), U_MT(LCTRL, T), U_MT(LSHFT, H), &kp K, &kp J, U_MT(LSHFT, N), U_MT(LCTRL, E), U_MT(LALT, A), U_MT(LGUI, I), \
+      U_LT(U_BUTTON, X), U_MT(RALT, C), &kp M, &kp P, &kp V, &kp Z, &kp COMMA, &kp DOT, U_MT(RALT, SQT), U_LT(U_BUTTON, SLASH),                   \
+      U_NP, U_NP, U_LT(U_MEDIA, ESC), U_LT(U_NAV, SPACE), U_LT(U_MOUSE, TAB), U_LT(U_SYM, RET), U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL), U_NP, U_NP
+
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY_FLIP                                                                                                   \
   &kp A, &kp Z, &kp E, &kp R, &kp T, &kp Y, &kp U, &kp I, &kp O, &kp P,                                                                         \
       U_MT(LGUI, Q), U_MT(LALT, S), U_MT(LCTRL, D), U_MT(LSHFT, F), &kp G, &kp H, U_MT(LSHFT, J), U_MT(LCTRL, K), U_MT(LALT, L), U_MT(LGUI, M), \
