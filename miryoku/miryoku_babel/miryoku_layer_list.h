@@ -16,7 +16,7 @@
   MIRYOKU_X(MEDIA, "Media")   \
   MIRYOKU_X(NUM, "Numbers")   \
   MIRYOKU_X(SYM, "Symbols")   \
-  MIRYOKU_X(FUN, "Funtions")
+  MIRYOKU_X(FUN, "Functions")
 
 #define U_BASE 0
 #define U_EXTRA 1
