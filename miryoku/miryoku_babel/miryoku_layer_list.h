@@ -7,7 +7,7 @@
 #if !defined(MIRYOKU_LAYER_LIST)
 
 #define MIRYOKU_LAYER_LIST    \
-  MIRYOKU_X(BASE, "魅力")    \
+  MIRYOKU_X(BASE,"CLMK-DH")    \
   MIRYOKU_X(EXTRA, "APTv3")   \
   MIRYOKU_X(TAP, "Tap")       \
   MIRYOKU_X(BUTTON, "Button") \
